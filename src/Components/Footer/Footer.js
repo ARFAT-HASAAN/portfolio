@@ -17,7 +17,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="text-white font-bold text-xl text-center  p-3">
-        <p> Copyright © 2021 Programming-hero.com</p>
+        <p> Copyright © 2021 Portfollio</p>
       </div>
     </div>
   );

@@ -54,7 +54,7 @@ const Navbar = () => {
 
         <div
           id="sidebar"
-          className="bg-green-900 text-white md:w-54 space-y-6 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-700 ease-in-out"
+          className="bg-green-900 text-white md:w-54 space-y-6 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out"
         >
           <a href="#" className="block text-center">
             <svg
