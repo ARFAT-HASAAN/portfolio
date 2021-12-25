@@ -8,8 +8,12 @@ const Navbar = () => {
         {/* mobile manu bar */}
         <div className="bg-green-900 flex justify-between text-white py-2  px-2 md:hidden">
           {/* logo  */}
-          <a className="flex items-center space-x-2 text-white font-bold">
-            <svg
+          <a
+            href="#"
+            className="flex items-center space-x-2 text-white font-bold"
+          >
+            {/* <p>A</p> */}
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-6"
               fill="none"
@@ -22,8 +26,8 @@ const Navbar = () => {
                 strokeWidth={2}
                 d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
               />
-            </svg>
-            <span className="text-2xl font-bold">Portfo</span>
+            </svg> */}
+            {/* <span className="text-2xl font-bold md:hidden">Web Developer</span> */}
           </a>
 
           {/* mobile manu button  */}
@@ -57,7 +61,8 @@ const Navbar = () => {
           className="bg-green-900 text-white md:w-54 space-y-6 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out"
         >
           <a href="#" className="block text-center">
-            <svg
+            <p className="font-extrabold text-red-500 text-7xl">A</p>
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 mx-auto my-2"
               fill="none"
@@ -70,8 +75,8 @@ const Navbar = () => {
                 strokeWidth={2}
                 d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
               />
-            </svg>
-            <span className="font-extrabold text-2xl ">Portfolio</span>
+            </svg> */}
+            <span className="font-normal  ">Web Developer</span>
           </a>
           <nav>
             <a

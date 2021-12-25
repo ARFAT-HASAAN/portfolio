@@ -12,9 +12,9 @@ const Blog = () => {
         </h2>
 
         <div className="grid p-2  md:grid-cols-3 gap-4">
-          <div className="rounded-lg p-1 text-center bg-white shadow-2xl">
-            <img src={javascript} width="100%" alt="post" />
-            <h3 className="font-bold text-2xl px-4 text-center">
+          <div className="rounded-lg p-5 text-center bg-red-500 text-white shadow-2xl">
+            {/* <img src={javascript} width="100%" alt="post" /> */}
+            <h3 className="font-bold text-2xl my-4 px-4 text-center">
               JavaScript Interview Questions
             </h3>
             <p className="px-4 text-center">
@@ -30,9 +30,9 @@ const Blog = () => {
             </button>
           </div>
 
-          <div className="rounded-lg p-1 text-center bg-white shadow-2xl">
-            <img src={react} width="100%" alt="post" />
-            <h3 className="font-bold text-2xl px-4 text-center">
+          <div className="rounded-lg p-4 text-center bg-red-500 text-white shadow-2xl">
+            {/* <img src={react} width="100%" alt="post" /> */}
+            <h3 className="font-bold text-2xl my-4 px-4 text-center">
               React/Redux Interview Questions with Answers
             </h3>
             <p className="px-4 text-center">
@@ -48,10 +48,10 @@ const Blog = () => {
             </button>
           </div>
 
-          <div className="rounded-lg p-1 text-center bg-white shadow-2xl">
-            <img src={mongodb} width="100%" alt="post" />
-            <h3 className="font-bold text-2xl px-4 text-center">
-              Frequently asked: MongoDB Interview Questions and Answers
+          <div className="rounded-lg p-4 text-center bg-red-500 text-white shadow-2xl">
+            {/* <img src={mongodb} width="100%" alt="post" /> */}
+            <h3 className="font-bold my-4 text-2xl px-4 text-center">
+              Frequently asked: MongoDB Interview Questions
             </h3>
             <p className="px-4 text-center">
               MongoDB is the most famous NoSQL open source database management

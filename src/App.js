@@ -11,13 +11,13 @@ function App() {
   return (
     <div className="">
       <Navbar></Navbar>
-      <Abouteme></Abouteme>
       <Projects></Projects>
+      <Abouteme></Abouteme>
       <Blog></Blog>
       <Skills></Skills>
       <Contact></Contact>
       <Footer></Footer>
-      <MySwiper></MySwiper>
+      {/* <MySwiper></MySwiper> */}
     </div>
   );
 }

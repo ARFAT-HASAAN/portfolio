@@ -11,7 +11,7 @@ import fotball from "../../images/projectpost/fotball.jpg";
 import ecommers from "../../images/projectpost/ecommerce.jpg";
 
 const Projects = () => {
-let settings = {
+  let settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -50,7 +50,7 @@ let settings = {
     ],
   };
   return (
-    <div id="project" className="bg-green-900 py-4">
+    <div id="project" className="bg-green-900 ">
       <div className="container mx-auto">
         <h2 className="text-center font-bold text-3xl md:text-6xl text-white p-8">
           My Projects

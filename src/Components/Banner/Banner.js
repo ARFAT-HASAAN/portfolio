@@ -175,7 +175,7 @@ const Banner = () => {
             </h3>
             <button className="bg-red-500 md:w-40 w-32 my-3 rounded-full md:py-3 py-2 px-4 md:px-6 font-bold text-xl text-white">
               <a
-                href="https://drive.google.com/uc?export=download&id=1onZ7N2OsKWcb3L3ArzvI2ytCzLAzN4Nf"
+                href="https://drive.google.com/uc?export=download&id=1j6ICn0uvHOYxzzBrU9mqe6bxTCfhwgae"
                 download
               >
                 Resume
