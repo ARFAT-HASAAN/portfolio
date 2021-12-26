@@ -107,7 +107,8 @@ const Navbar = () => {
         </div>
 
         {/* content */}
-        <Banner></Banner>
+        <div className="flex-1"><Banner></Banner> </div>
+        
 
         {/* <div className="flex-1 p-10 font-bold text-2xl">content text here</div> */}
       </div>

@@ -12,7 +12,7 @@ const Banner = () => {
     console.log(container);
   };
   return (
-    <div id="home" className="bg-green-900">
+    <div id="home" className="bg-green-900 h-screen">
       <Particles
         id="tsparticles"
         init={particlesInit}
